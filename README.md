@@ -113,9 +113,8 @@ Weather patterns affect routes through:
 git clone https://github.com/Arch7399/mapup-weather-optimized-routing.git
 ```
 ## Usage
-
-```python
-# Run the complete simulation 
+# Run the complete simulation
+```python 
 dynamic-weather-route-mapping.py
 ```
 
