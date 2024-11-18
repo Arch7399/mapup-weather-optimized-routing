@@ -1,11 +1,10 @@
-# Import necessary libraries for mathematical operations, data handling, and visualization
-from dataclasses import dataclass  # For creating data classes with less boilerplate
-from typing import List, Set  # For type hints
-import folium  # For creating interactive maps
-from shapely.geometry import Point, LineString  # For geometric operations
-import geopandas as gpd  # For handling geospatial data
-import math  # For mathematical calculations
-import random  # For generating random values
+from dataclasses import dataclass  
+from typing import List, Set 
+import folium 
+from shapely.geometry import Point, LineString 
+import geopandas as gpd  
+import math  
+import random  
 
 
 @dataclass
@@ -273,11 +272,6 @@ class WeatherPattern:
         buffer = total_distance * 0.2
         return dist_to_vehicle + dist_to_dest <= total_distance + buffer
 
-
-# Note: The rest of the code continues with similar detailed commenting...
-# I'll continue with the remaining classes and functions if you'd like,
-# but this gives you a good idea of the commenting style and level of detail.
-# Would you like me to continue with the rest of the code?
 class EnhancedRoute:
     """
     Represents a complete route with multiple waypoints and associated characteristics.
@@ -595,10 +589,6 @@ def create_visualization(
     m.get_root().html.add_child(folium.Element(legend_html))
 
     return m
-
-
-# Helper Functions for Route Creation and Simulation
-
 
 def create_sample_routes() -> List[EnhancedRoute]:
     """Create sample routes between Denver and Minneapolis with adjacency information"""
