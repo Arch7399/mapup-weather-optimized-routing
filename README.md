@@ -1,7 +1,7 @@
 # Dynamic Route Optimization System with Weather Impact Analysis
 
 ## Overview
-This project implements an advanced route optimization system for fleet management, inspired by Mapup's fleet routing optimization solutions. While the original focus was on reducing toll expenses and fuel costs, this implementation adds a randomized weather simulation layer to provide more realistic and dynamic route optimization.
+This project implements an advanced route optimization system for fleet management, inspired by Mapup's fleet routing optimization solutions. While the original focus was on reducing toll expenses and fuel costs, this implementation adds a randomized weather simulation layer to provide more realistic and dynamic route optimization that provides the least riskier and cost optimized adjacent route possible.
 
 ## Key Features
 - **Multi-Route Analysis**: Simulates and analyzes 5 distinct routes between Denver and Minneapolis
@@ -81,6 +81,23 @@ Each route includes:
      - Active weather patterns
      - Route risk levels
      - Optimal path selection
+
+### Optimal Path Visuals
+## Hour 0
+![alt text](assets/path_images/hour_0.png)
+
+## Hour 7
+![alt text](assets/path_images/hour_7.png)
+
+## Hour 8
+![alt text](assets/path_images/hour_8.png)
+
+## Hour 9
+![alt text](assets/path_images/hour_9.png)
+
+## Hour 16
+![alt text](assets/path_images/hour_16.png)
+
 
 ## Implementation Details
 
